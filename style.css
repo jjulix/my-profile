@@ -1,0 +1,116 @@
+body {
+	font-family: Arial,serif;
+	background-color: white;
+	background-image:url("Image/background3.jpg");
+	text-align: center;
+	word-spacing: unset;
+}
+h5 {
+	color: blue;
+}
+h1 {
+	color: black;
+	font-size: 80px;
+}
+img {
+	border-radius: 50%;
+}
+.card-white {
+  border: 10px WHITE;
+  background-color: whitesmoke;
+  text-align: center;
+  margin: 150px;
+  box-shadow: 5px 5px 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  opacity: 80%;
+}
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 42px;
+  font-size: 32px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+.leftpane{
+    width: 29%;
+    min-width: 40px;
+    height: 500px;
+    min-height: 40px;
+    background-color: whitesmoke;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 30px;
+    border-radius: 5%;
+    opacity: 75%;
+}
+
+.middlepane{
+   width: 29%;
+   min-width: 40px;
+   height: 500px;
+   min-height: 50px;
+   background-color: white;
+   border-collapse: collapse;
+   box-shadow: 5px 5px 30px;
+   border-radius: 5%;
+   opacity: 75%;
+}
+
+.rightpane{
+   width: 29%;
+    min-width: 40px;
+    height: 500px;
+    min-height: 40px;
+    background-color: whitesmoke;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 30px;
+    border-radius: 5%;
+    opacity: 70%;
+}
+
+.blurbs {
+	display: flex;
+	justify-content: space-around;
+}
+.container{
+  margin: 100px 100px 100px 100px;
+}
+
+
+@media (max-width: 100px){
+  .body {
+    width: 100px;
+    background-color: lightblue;
+     }
+  } 
